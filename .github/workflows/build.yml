@@ -32,8 +32,8 @@ jobs:
           restore-keys: |
             $ {{ runner.os }}-sonar-
 
-      - name: Install SonarScanner
-        run: choco install sonar-scanner-cli --version=7.2.0.5079 -y
+      # - name: Install SonarScanner
+      #   run: choco install sonar-scanner-cli --version=7.2.0.5079 -y
 
       - name: Run SonarQube analysis
         env:
