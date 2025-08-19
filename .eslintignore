@@ -1,0 +1,5 @@
+# 忽略语法检测的文件
+dist
+node_modules
+src/components/HelloWorld.vue
+tests
